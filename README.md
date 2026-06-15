@@ -1,16 +1,27 @@
-## Hi there 👋
+# Zeffut
 
-<!--
-**Zeffut/Zeffut** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<div align="center">
 
-Here are some ideas to get you started:
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=Zeffut&show_icons=true&theme=github_dark&hide_border=true" />
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Zeffut&layout=compact&theme=github_dark&hide_border=true" />
+
+</div>
+
+<img src="https://streak-stats.demolab.com?user=Zeffut&theme=github-dark&hide_border=true" />
+
+## Featured Projects
+
+| Projet | Description |
+|----------|-------------|
+| 🚀 Project One | Description courte |
+| 🤖 AI Project | Description courte |
+| ⚡ Tool | Description courte |
+
+## Activity Graph
+
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Zeffut&theme=github-dark)](https://github.com/Zeffut)
+
+## Trophies
+
+[![trophy](https://github-profile-trophy.vercel.app/?username=Zeffut&theme=darkhub&no-frame=true)](https://github.com/ryo-ma/github-profile-trophy)
