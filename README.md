@@ -8,16 +8,6 @@
 
 </div>
 
-<img src="https://streak-stats.demolab.com?user=Zeffut&theme=github-dark&hide_border=true" />
-
-## Featured Projects
-
-| Projet | Description |
-|----------|-------------|
-| 🚀 Project One | Description courte |
-| 🤖 AI Project | Description courte |
-| ⚡ Tool | Description courte |
-
 ## Activity Graph
 
 [![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Zeffut&theme=github-dark)](https://github.com/Zeffut)
