@@ -11,7 +11,3 @@
 ## Activity Graph
 
 [![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Zeffut&theme=github-dark)](https://github.com/Zeffut)
-
-## Trophies
-
-[![trophy](https://github-profile-trophy.vercel.app/?username=Zeffut&theme=darkhub&no-frame=true)](https://github.com/ryo-ma/github-profile-trophy)
