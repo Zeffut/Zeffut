@@ -8,7 +8,7 @@
 
 <div align="center">
 
-<img src="assets/header.svg?v=d5f9193b" width="100%" alt="Zeffut — 26 dépôts, 25 étoiles, 4103 commits sur 12 mois">
+<img src="assets/header.svg?v=fcd91274" width="100%" alt="Zeffut — 26 dépôts, 25 étoiles, 4104 commits sur 12 mois">
 
 <a href="https://github.com/Zeffut?tab=repositories"><b>26 dépôts</b></a>&nbsp; · &nbsp;<a href="https://github.com/Zeffut?tab=followers"><b>10 abonnés</b></a>&nbsp; · &nbsp;<span>France</span>
 
@@ -18,9 +18,9 @@
 
 <!-- perso:end -->
 
-<img src="assets/stats.svg?v=e372fc91" width="100%" alt="Activité sur 12 mois : 4103 commits, 30 pull requests, 7 issues, 7 revues. Langage principal : Python.">
+<img src="assets/stats.svg?v=395fd148" width="100%" alt="Activité sur 12 mois : 4104 commits, 30 pull requests, 7 issues, 7 revues. Langage principal : Python.">
 
-<img src="assets/activity.svg?v=dd44cee7" width="100%" alt="Calendrier de contributions : 4168 contributions sur l’année, série en cours de 42 jours, record 42 jours.">
+<img src="assets/activity.svg?v=8f4dca2d" width="100%" alt="Calendrier de contributions : 4169 contributions sur l’année, série en cours de 42 jours, record 42 jours.">
 
 ## Dernières releases
 
@@ -30,7 +30,7 @@
 | [**FlashbackTurbo**](https://github.com/Zeffut/FlashbackTurbo) | [`v0.6.1+26.1`](https://github.com/Zeffut/FlashbackTurbo/releases/tag/v0.6.1%2B26.1) | 14 juin 2026 | il y a 3 mois |
 | [**SwordHitbox**](https://github.com/Zeffut/SwordHitbox) | [`v1.0.2`](https://github.com/Zeffut/SwordHitbox/releases/tag/v1.0.2) | 10 juin 2026 | il y a 3 mois |
 | [**YoutubeAutoTheme**](https://github.com/Zeffut/YoutubeAutoTheme) | [`v1.1.0`](https://github.com/Zeffut/YoutubeAutoTheme/releases/tag/v1.1.0) | 23 mai 2026 | il y a 3 mois |
-| [**minecraft-wrapped**](https://github.com/Zeffut/minecraft-wrapped) | [`v1.1.0`](https://github.com/Zeffut/minecraft-wrapped/releases/tag/v1.1.0) | 16 mai 2026 | il y a 4 mois |
+| [**minecraft-wrapped**](https://github.com/Zeffut/minecraft-wrapped) | [`v1.1.0`](https://github.com/Zeffut/minecraft-wrapped/releases/tag/v1.1.0) | 15 mai 2026 | il y a 4 mois |
 | [**MultiView**](https://github.com/Zeffut/MultiView) | [`v0.3.0`](https://github.com/Zeffut/MultiView/releases/tag/v0.3.0) | 11 mai 2026 | il y a 4 mois |
 
 ## Par domaine
