@@ -14,8 +14,8 @@ on:
       theme:
         description: Direction artistique
         type: choice
-        options: [chunk, replay, deepslate]
-        default: chunk
+        options: [deepslate, chunk, replay]
+        default: deepslate
 
 permissions:
   contents: write
@@ -39,7 +39,7 @@ jobs:
           # README_TOKEN (PAT avec read:user) fait remonter aussi les
           # contributions privées. Sans lui, GITHUB_TOKEN ne voit que le public.
           GITHUB_TOKEN: ${{ secrets.README_TOKEN || secrets.GITHUB_TOKEN }}
-          README_THEME: ${{ inputs.theme || vars.README_THEME || 'chunk' }}
+          README_THEME: ${{ inputs.theme || vars.README_THEME || 'deepslate' }}
           GH_LOGIN: ${{ github.repository_owner }}
         run: node scripts/build.mjs
 
