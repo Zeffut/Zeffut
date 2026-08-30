@@ -1,10 +1,8 @@
-import { ago } from './kit.mjs'
-
-const dfmt = new Intl.DateTimeFormat('fr-FR', { day: '2-digit', month: 'short', year: 'numeric' })
-const date = (iso) => dfmt.format(new Date(iso))
 const img = (name, stamp, alt) =>
   `<img src="assets/${name}?v=${stamp}" width="100%" alt="${alt}">`
 
+// Le README se réduit aux trois visuels : tout ce qu'ils disent est déjà de la
+// donnée à jour, et la date de régénération vit dans le SVG d'en-tête.
 export function buildReadme(d, stamps, keep) {
   const u = d.user
   const links = [
@@ -14,32 +12,12 @@ export function buildReadme(d, stamps, keep) {
     u.location && `<span>${u.location}</span>`,
   ].filter(Boolean).join('&nbsp; · &nbsp;')
 
-  const releases = d.releases.slice(0, 6).map((r) =>
-    `| [**${r.repo}**](${r.repoUrl}) | [\`${r.tag}\`](${r.url}) | ${date(r.at)} | ${ago(r.at)} |`).join('\n')
-
-  const lanes = d.lanes.filter((l) => l.repos.length).map((l) => {
-    const rows = l.repos.slice(0, 12).map((r) =>
-      `| [**${r.name}**](${r.url}) | ${r.desc ? r.desc.replace(/\|/g, '\\|').slice(0, 110) : '—'} | ${r.lang ?? '—'} | ${r.stars ? '★ ' + r.stars : ''} |`).join('\n')
-    return `<details>
-<summary><b>${l.label}</b> — ${l.repos.length} dépôt${l.repos.length > 1 ? 's' : ''}</summary>
-
-| Projet | Description | Langage | |
-| :-- | :-- | :-- | --: |
-${rows}
-
-</details>`
-  }).join('\n\n')
-
-  const fresh = d.fresh.slice(0, 5)
-    .map((r) => `- [**${r.name}**](${r.url}) — ${r.desc || 'sans description'} &nbsp;<sub>${ago(r.pushedAt)}</sub>`)
-    .join('\n')
-
   return `<!--
   ⚠️  Fichier régénéré automatiquement par scripts/build.mjs
-      (GitHub Actions, toutes les 6 h + à chaque push).
+      (GitHub Actions, toutes les 6 h + à chaque push sur scripts/**).
       Pour écrire à la main, utilise uniquement la zone perso:start / perso:end.
-      Pour changer de direction artistique : README_THEME dans
-      .github/workflows/readme.yml → chunk | replay | deepslate
+      Pour changer de direction artistique : variable de dépôt README_THEME
+      → chunk | replay | deepslate
 -->
 
 <div align="center">
@@ -57,26 +35,5 @@ ${links}
 ${img('stats.svg', stamps['stats.svg'], `Activité sur 12 mois : ${d.totals.commits} commits, ${d.totals.prs} pull requests, ${d.totals.issues} issues, ${d.totals.reviews} revues. Langage principal : ${d.languages[0]?.name ?? '—'}.`)}
 
 ${img('activity.svg', stamps['activity.svg'], `Calendrier de contributions : ${d.calendar.total} contributions sur l’année, série en cours de ${d.streak.current} jours, record ${d.streak.longest} jours.`)}
-
-## Dernières releases
-
-| Projet | Version | Date | |
-| :-- | :-- | :-- | --: |
-${releases}
-
-## Par domaine
-
-${lanes}
-
-## Derniers dépôts touchés
-
-${fresh}
-
----
-
-<div align="center">
-<sub>README généré par <a href="scripts/build.mjs"><code>scripts/build.mjs</code></a> — DA « ${d.theme} », SVG animés faits maison, données GitHub GraphQL.<br>
-Dernière régénération : ${d.stampFr} (Europe/Paris).</sub>
-</div>
 `
 }
