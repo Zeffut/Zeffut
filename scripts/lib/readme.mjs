@@ -14,10 +14,6 @@ export function buildReadme(d, stamps, keep) {
     u.location && `<span>${u.location}</span>`,
   ].filter(Boolean).join('&nbsp; · &nbsp;')
 
-  const index = d.top.slice(0, 6)
-    .map((r) => `<a href="${r.url}"><b>${r.name}</b></a>`)
-    .join('&nbsp; · &nbsp;')
-
   const releases = d.releases.slice(0, 6).map((r) =>
     `| [**${r.repo}**](${r.repoUrl}) | [\`${r.tag}\`](${r.url}) | ${date(r.at)} | ${ago(r.at)} |`).join('\n')
 
@@ -59,10 +55,6 @@ ${links}
 `}<!-- perso:end -->
 
 ${img('stats.svg', stamps['stats.svg'], `Activité sur 12 mois : ${d.totals.commits} commits, ${d.totals.prs} pull requests, ${d.totals.issues} issues, ${d.totals.reviews} revues. Langage principal : ${d.languages[0]?.name ?? '—'}.`)}
-
-${img('projects.svg', stamps['projects.svg'], `Projets les plus étoilés : ${d.top.slice(0, 6).map((r) => `${r.name} (★${r.stars})`).join(', ')}`)}
-
-<div align="center">${index}</div>
 
 ${img('activity.svg', stamps['activity.svg'], `Calendrier de contributions : ${d.calendar.total} contributions sur l’année, série en cours de ${d.streak.current} jours, record ${d.streak.longest} jours.`)}
 

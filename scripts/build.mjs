@@ -9,7 +9,6 @@ import { collect } from './lib/data.mjs'
 import { classify, tagline } from './lib/classify.mjs'
 import { renderHeader } from './svg/header.mjs'
 import { renderStats } from './svg/stats.mjs'
-import { renderProjects } from './svg/projects.mjs'
 import { renderActivity } from './svg/activity.mjs'
 import { buildReadme } from './lib/readme.mjs'
 
@@ -50,7 +49,6 @@ export async function build({ themeId, outDir, login, data }) {
   const assets = {
     'header.svg': renderHeader(t, d),
     'stats.svg': renderStats(t, d),
-    'projects.svg': renderProjects(t, d),
     'activity.svg': renderActivity(t, d),
   }
 

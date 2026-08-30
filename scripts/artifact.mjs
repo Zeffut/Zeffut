@@ -4,7 +4,7 @@
 import { readFile, writeFile } from 'node:fs/promises'
 import { THEME_IDS } from './lib/themes.mjs'
 
-const FILES = ['header.svg', 'stats.svg', 'projects.svg', 'activity.svg']
+const FILES = ['header.svg', 'stats.svg', 'activity.svg']
 const LIVE = 'chunk'
 
 const DA = {

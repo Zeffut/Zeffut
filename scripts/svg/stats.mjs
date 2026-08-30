@@ -19,9 +19,9 @@ export function renderStats(t, d) {
   const COLW = 229
   const counters = metrics.map(([label, v, col], i) => {
     const x = 42 + i * COLW
-    return `<text x="${x}" y="114" font-family="${bigFace}" font-weight="${bigWeight}" font-size="42" fill="${col}">${esc(num(v))}</text>` +
+    return `<text x="${x}" y="114" font-family="${bigFace}" font-weight="${bigWeight}" font-size="42" fill="${col}" class="rise" style="animation-delay:${(0.1 + i * 0.09).toFixed(2)}s">${esc(num(v))}</text>` +
       `<text x="${x + 1}" y="136" font-family="${t.data}" font-size="10.5" fill="${c.dim}" letter-spacing="1.6">${esc(label.toUpperCase())}</text>` +
-      `<rect x="${x}" y="148" width="${COLW - 30}" height="2" rx="1" fill="${col}" opacity=".38"/>`
+      `<rect class="grow" x="${x}" y="148" width="${COLW - 30}" height="2" rx="1" fill="${col}" opacity=".38" style="animation-delay:${(0.3 + i * 0.09).toFixed(2)}s"/>`
   }).join('')
 
   // Barre empilée : on garde les 8 premiers langages, le reste devient « autres ».
@@ -31,7 +31,7 @@ export function renderStats(t, d) {
   let sx = 42
   const bar = segs.map((l, i) => {
     const w = (l.pct / 100) * BW
-    const s = `<rect x="${sx.toFixed(1)}" y="190" width="${Math.max(1.5, w - 1.5).toFixed(1)}" height="15" rx="2" fill="${l.color || c.dim}"/>`
+    const s = `<rect x="${sx.toFixed(1)}" y="190" width="${Math.max(1.5, w - 1.5).toFixed(1)}" height="15" rx="2" fill="${l.color || c.dim}" class="grow" style="animation-delay:${(0.5 + i * 0.055).toFixed(2)}s"/>`
     sx += w
     return s
   }).join('')
@@ -48,7 +48,11 @@ export function renderStats(t, d) {
   return svg({
     t, w: W, h: H,
     css: `
-.shine{animation:slide 6s cubic-bezier(.45,0,.55,1) 1.2s infinite}
+.rise{animation:rise .6s cubic-bezier(.2,.9,.3,1)}
+@keyframes rise{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+.grow{transform-box:fill-box;transform-origin:0 50%;animation:grow .7s cubic-bezier(.2,.9,.3,1)}
+@keyframes grow{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+.shine{animation:slide 6s cubic-bezier(.45,0,.55,1) 2.4s infinite}
 @keyframes slide{0%{transform:translateX(0)}55%,100%{transform:translateX(1180px)}}`,
     body: `
 <text x="42" y="52" font-family="${t.data}" font-size="10.5" fill="${c.dim}" letter-spacing="3">ACTIVITÉ · 12 DERNIERS MOIS</text>
