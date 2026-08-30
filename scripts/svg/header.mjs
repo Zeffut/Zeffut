@@ -253,11 +253,11 @@ function deepslate(t, d) {
     body: `
 <defs>
   <linearGradient id="gl" x1="0" y1="0" x2="1" y2="0">
-    <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+    <stop offset="0" stop-color="${c.glint}" stop-opacity="0"/>
     <stop offset=".42" stop-color="${c.accent3}" stop-opacity=".85"/>
-    <stop offset=".52" stop-color="#fff" stop-opacity="1"/>
+    <stop offset=".52" stop-color="${c.glint}" stop-opacity="1"/>
     <stop offset=".62" stop-color="${c.accent}" stop-opacity=".85"/>
-    <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    <stop offset="1" stop-color="${c.glint}" stop-opacity="0"/>
   </linearGradient>
   <linearGradient id="rl" x1="0" y1="0" x2="1" y2="0">
     <stop offset="0" stop-color="${c.accent}" stop-opacity="0"/>

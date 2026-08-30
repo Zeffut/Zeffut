@@ -46,11 +46,15 @@ export async function build({ themeId, outDir, login, data }) {
     theme: themeId,
   }
 
-  const assets = {
-    'header.svg': renderHeader(t, d),
-    'stats.svg': renderStats(t, d),
-    'activity.svg': renderActivity(t, d),
-  }
+  // Deux rendus par visuel : GitHub choisit via <picture> + prefers-color-scheme.
+  const paint = (theme) => ({
+    'header.svg': renderHeader(theme, d),
+    'stats.svg': renderStats(theme, d),
+    'activity.svg': renderActivity(theme, d),
+  })
+  const assets = { ...paint(t) }
+  for (const [name, svg] of Object.entries(paint({ ...t, c: t.light })))
+    assets[name.replace('.svg', '-light.svg')] = svg
 
   await mkdir(`${outDir}/assets`, { recursive: true })
   const stamps = {}

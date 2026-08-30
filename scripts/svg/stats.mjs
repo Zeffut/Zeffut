@@ -65,9 +65,9 @@ ${bar}
 <defs>
   <clipPath id="bc"><rect x="42" y="190" width="916" height="15" rx="2"/></clipPath>
   <linearGradient id="sh" x1="0" y1="0" x2="1" y2="0">
-    <stop offset="0" stop-color="#fff" stop-opacity="0"/>
-    <stop offset=".5" stop-color="#fff" stop-opacity=".5"/>
-    <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    <stop offset="0" stop-color="${c.sheen}" stop-opacity="0"/>
+    <stop offset=".5" stop-color="${c.sheen}" stop-opacity=".45"/>
+    <stop offset="1" stop-color="${c.sheen}" stop-opacity="0"/>
   </linearGradient>
 </defs>
 <g clip-path="url(#bc)"><rect class="shine" x="-220" y="190" width="220" height="15" fill="url(#sh)"/></g>

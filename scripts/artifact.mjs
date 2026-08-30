@@ -47,7 +47,13 @@ const sections = []
 for (const id of THEME_IDS) {
   const da = DA[id]
   const imgs = []
-  for (const f of FILES) imgs.push(`<img src="${await uri(id, f)}" alt="${da.name} — ${f.replace('.svg', '')}">`)
+  for (const f of FILES) {
+    const light = await uri(id, f.replace('.svg', '-light.svg'))
+    imgs.push(`<picture>
+      <source media="(prefers-color-scheme: light)" srcset="${light}">
+      <img src="${await uri(id, f)}" alt="${da.name} — ${f.replace('.svg', '')}">
+    </picture>`)
+  }
   sections.push(`<section class="da">
   <div class="label">
     <p class="cat">${da.n}</p>
@@ -115,6 +121,7 @@ code{font-family:"JetBrains Mono",ui-monospace,monospace;font-size:.86em;
 .switch code{font-size:12.5px;padding:6px 10px;display:inline-block}
 
 .plates{display:flex;flex-direction:column;gap:12px;min-width:0}
+.plates picture{display:block}
 .plates img{display:block;width:100%;height:auto;border-radius:8px;
   border:1px solid var(--hair);background:#0d1117}
 
@@ -135,7 +142,9 @@ footer p{margin:0 0 10px}
   <p class="lede">Trois directions artistiques pour ton README, construites sur <strong>tes vraies données</strong> :
   vingt-six dépôts, quatorze langages, ton calendrier de contributions. Les visuels ci-dessous
   ne sont pas des maquettes — ce sont les fichiers réellement générés, animés comme sur GitHub.
-  <strong>Deepslate est en ligne en ce moment.</strong> Changer de DA tient en une variable de dépôt.</p>
+  <strong>Deepslate est en ligne en ce moment.</strong> Changer de DA tient en une variable de dépôt.
+  Chaque DA existe en version claire et sombre : les visuels ci-dessous suivent le thème de ton système,
+  exactement comme ils le feront sur GitHub.</p>
 </header>
 
 ${sections.join('\n')}

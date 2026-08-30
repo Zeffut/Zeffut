@@ -1,5 +1,14 @@
-const img = (name, stamp, alt) =>
-  `<img src="assets/${name}?v=${stamp}" width="100%" alt="${alt}">`
+// GitHub sert la variante qui correspond au thème du système d'exploitation.
+// Le <img> final reste le repli pour tout contexte qui ignore <picture>.
+const img = (base, stamps, alt) => {
+  const dark = `assets/${base}.svg?v=${stamps[`${base}.svg`]}`
+  const light = `assets/${base}-light.svg?v=${stamps[`${base}-light.svg`]}`
+  return `<picture>
+  <source media="(prefers-color-scheme: light)" srcset="${light}">
+  <source media="(prefers-color-scheme: dark)" srcset="${dark}">
+  <img src="${dark}" width="100%" alt="${alt}">
+</picture>`
+}
 
 // Le README se réduit aux trois visuels : tout ce qu'ils disent est déjà de la
 // donnée à jour, et la date de régénération vit dans le SVG d'en-tête.
@@ -22,7 +31,7 @@ export function buildReadme(d, stamps, keep) {
 
 <div align="center">
 
-${img('header.svg', stamps['header.svg'], `${u.login} — ${d.totals.repos} dépôts, ${d.totals.stars} étoiles, ${d.totals.commits} commits sur 12 mois`)}
+${img('header', stamps, `${u.login} — ${d.totals.repos} dépôts, ${d.totals.stars} étoiles, ${d.totals.commits} commits sur 12 mois`)}
 
 ${links}
 
@@ -32,8 +41,8 @@ ${links}
 
 `}<!-- perso:end -->
 
-${img('stats.svg', stamps['stats.svg'], `Activité sur 12 mois : ${d.totals.commits} commits, ${d.totals.prs} pull requests, ${d.totals.issues} issues, ${d.totals.reviews} revues. Langage principal : ${d.languages[0]?.name ?? '—'}.`)}
+${img('stats', stamps, `Activité sur 12 mois : ${d.totals.commits} commits, ${d.totals.prs} pull requests, ${d.totals.issues} issues, ${d.totals.reviews} revues. Langage principal : ${d.languages[0]?.name ?? '—'}.`)}
 
-${img('activity.svg', stamps['activity.svg'], `Calendrier de contributions : ${d.calendar.total} contributions sur l’année, série en cours de ${d.streak.current} jours, record ${d.streak.longest} jours.`)}
+${img('activity', stamps, `Calendrier de contributions : ${d.calendar.total} contributions sur l’année, série en cours de ${d.streak.current} jours, record ${d.streak.longest} jours.`)}
 `
 }

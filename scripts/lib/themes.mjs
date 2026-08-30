@@ -30,6 +30,17 @@ export const THEMES = {
       accent3: '#FF5A4E',  // redstone — les pics de lag
       accent4: '#FCD34D',  // or
       ramp: '#7DD35F',
+      sheen: '#FFFFFF',
+      glint: '#FFFFFF',
+    },
+    // Variante claire : le même relevé, posé sur du papier millimétré plutôt
+    // que sur un écran. Les couleurs de bloc sont assombries pour tenir le
+    // contraste sur fond clair.
+    light: {
+      bg: '#F1F4F7', panel: '#FFFFFF', panelAlt: '#E4E9EE', line: '#CFD8E0',
+      text: '#12161C', dim: '#4C5862', faint: '#798794',
+      accent: '#0E7A71', accent2: '#3B8A28', accent3: '#C0362A', accent4: '#9C6B00',
+      ramp: '#3B8A28', sheen: '#1B2430', glint: '#FFFFFF',
     },
   },
 
@@ -59,6 +70,16 @@ export const THEMES = {
       accent3: '#FF5C8A',  // keyframes
       accent4: '#9EFF6E',  // audio
       ramp: '#4DD9E8',
+      sheen: '#FFFFFF',
+      glint: '#FFFFFF',
+    },
+    // Variante claire : la feuille de montage plutôt que la station. Même
+    // grammaire de pistes, encre sur papier.
+    light: {
+      bg: '#F4F4F2', panel: '#FFFFFF', panelAlt: '#E8E8E3', line: '#D3D3CC',
+      text: '#121418', dim: '#4E555E', faint: '#7C838B',
+      accent: '#BC6400', accent2: '#0C7383', accent3: '#BC2F63', accent4: '#3B871C',
+      ramp: '#0C7383', sheen: '#141414', glint: '#FFFFFF',
     },
   },
 
@@ -89,6 +110,16 @@ export const THEMES = {
       accent3: '#FF7BD5',  // lapis-rose
       accent4: '#FFD166',  // or
       ramp: '#A47CFF',
+      sheen: '#FFFFFF',
+      glint: '#FFFFFF',
+    },
+    // Variante claire : le grimoire plutôt que la table. Le violet passe de
+    // lueur à encre, le glint devient un reflet sombre sur le papier.
+    light: {
+      bg: '#F2EEF9', panel: '#FBF9FE', panelAlt: '#E7DFF5', line: '#D5C9EC',
+      text: '#221635', dim: '#5C4E78', faint: '#8878AB',
+      accent: '#6535CC', accent2: '#3D8F13', accent3: '#B92E8E', accent4: '#9A6B00',
+      ramp: '#6535CC', sheen: '#2A1450', glint: '#FFE3A0',
     },
   },
 }
