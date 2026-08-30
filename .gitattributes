@@ -1,0 +1,3 @@
+assets/*.svg      linguist-generated=true -diff
+scripts/lib/fonts.mjs linguist-generated=true -diff
+README.md         linguist-generated=true

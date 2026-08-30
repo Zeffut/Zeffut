@@ -35,7 +35,7 @@ ${rows}
   }).join('\n\n')
 
   const fresh = d.fresh.slice(0, 5)
-    .map((r) => `- [**${r.name}**](${r.url}) — ${r.desc || 'sans description'} <sub>· ${ago(r.pushedAt)}</sub>`)
+    .map((r) => `- [**${r.name}**](${r.url}) — ${r.desc || 'sans description'} &nbsp;<sub>${ago(r.pushedAt)}</sub>`)
     .join('\n')
 
   return `<!--
