@@ -5,7 +5,7 @@ import { readFile, writeFile } from 'node:fs/promises'
 import { THEME_IDS } from './lib/themes.mjs'
 
 const FILES = ['header.svg', 'stats.svg', 'activity.svg']
-const LIVE = 'chunk'
+const LIVE = 'deepslate'
 
 const DA = {
   chunk: {
@@ -33,7 +33,7 @@ const DA = {
     concept: `L’angle artisan : celui qui fabrique des outils. Obsidienne, violet d’enchantement, orbes d’XP. C’est la plus décorative des trois — et la seule composition centrée.`,
     data: [
       'Les pastilles reprennent commits, série en cours, nombre de langages et de releases.',
-      'Le calendrier de contributions passe dans la teinte violette du thème plutôt qu’un vert imposé.',
+      'Le calendrier de contributions passe dans la teinte violette du thème, en cellules carrées, et se remplit semaine par semaine au chargement.',
     ],
     motion: 'Le glint — ce balayage iridescent qui court sur les objets enchantés — traverse ton nom en boucle, pendant que les orbes d’XP montent.',
   },
@@ -135,7 +135,7 @@ footer p{margin:0 0 10px}
   <p class="lede">Trois directions artistiques pour ton README, construites sur <strong>tes vraies données</strong> :
   vingt-six dépôts, quatorze langages, ton calendrier de contributions. Les visuels ci-dessous
   ne sont pas des maquettes — ce sont les fichiers réellement générés, animés comme sur GitHub.
-  <strong>Chunk est en ligne en ce moment.</strong> Changer de DA tient en une variable de dépôt.</p>
+  <strong>Deepslate est en ligne en ce moment.</strong> Changer de DA tient en une variable de dépôt.</p>
 </header>
 
 ${sections.join('\n')}
