@@ -8,7 +8,7 @@
 
 <div align="center">
 
-<img src="assets/header.svg?v=ef7777d6" width="100%" alt="Zeffut — 26 dépôts, 25 étoiles, 4102 commits sur 12 mois">
+<img src="assets/header.svg?v=345a802f" width="100%" alt="Zeffut — 26 dépôts, 25 étoiles, 4103 commits sur 12 mois">
 
 <a href="https://github.com/Zeffut?tab=repositories"><b>26 dépôts</b></a>&nbsp; · &nbsp;<a href="https://github.com/Zeffut?tab=followers"><b>10 abonnés</b></a>&nbsp; · &nbsp;<span>France</span>
 
@@ -18,13 +18,13 @@
 
 <!-- perso:end -->
 
-<img src="assets/stats.svg?v=c0d29e64" width="100%" alt="Activité sur 12 mois : 4102 commits, 30 pull requests, 7 issues, 7 revues. Langage principal : Python.">
+<img src="assets/stats.svg?v=98a9c79b" width="100%" alt="Activité sur 12 mois : 4103 commits, 30 pull requests, 7 issues, 7 revues. Langage principal : Python.">
 
 <img src="assets/projects.svg?v=c00218e1" width="100%" alt="Projets les plus étoilés : tiktok_ia_generator (★6), FlashbackServer (★4), Portfolio (★2), Esiee-Paris-Salles (★2), n8n-nodes-plaud (★2), NoteGenius (★2)">
 
 <div align="center"><a href="https://github.com/Zeffut/tiktok_ia_generator"><b>tiktok_ia_generator</b></a>&nbsp; · &nbsp;<a href="https://github.com/Zeffut/FlashbackServer"><b>FlashbackServer</b></a>&nbsp; · &nbsp;<a href="https://github.com/Zeffut/Portfolio"><b>Portfolio</b></a>&nbsp; · &nbsp;<a href="https://github.com/Zeffut/Esiee-Paris-Salles"><b>Esiee-Paris-Salles</b></a>&nbsp; · &nbsp;<a href="https://github.com/Zeffut/n8n-nodes-plaud"><b>n8n-nodes-plaud</b></a>&nbsp; · &nbsp;<a href="https://github.com/Zeffut/NoteGenius"><b>NoteGenius</b></a></div>
 
-<img src="assets/activity.svg?v=3d0c3021" width="100%" alt="Calendrier de contributions : 4167 contributions sur l’année, série en cours de 42 jours, record 42 jours.">
+<img src="assets/activity.svg?v=41438848" width="100%" alt="Calendrier de contributions : 4168 contributions sur l’année, série en cours de 42 jours, record 42 jours.">
 
 ## Dernières releases
 
@@ -34,7 +34,7 @@
 | [**FlashbackTurbo**](https://github.com/Zeffut/FlashbackTurbo) | [`v0.6.1+26.1`](https://github.com/Zeffut/FlashbackTurbo/releases/tag/v0.6.1%2B26.1) | 14 juin 2026 | il y a 3 mois |
 | [**SwordHitbox**](https://github.com/Zeffut/SwordHitbox) | [`v1.0.2`](https://github.com/Zeffut/SwordHitbox/releases/tag/v1.0.2) | 10 juin 2026 | il y a 3 mois |
 | [**YoutubeAutoTheme**](https://github.com/Zeffut/YoutubeAutoTheme) | [`v1.1.0`](https://github.com/Zeffut/YoutubeAutoTheme/releases/tag/v1.1.0) | 23 mai 2026 | il y a 3 mois |
-| [**minecraft-wrapped**](https://github.com/Zeffut/minecraft-wrapped) | [`v1.1.0`](https://github.com/Zeffut/minecraft-wrapped/releases/tag/v1.1.0) | 16 mai 2026 | il y a 4 mois |
+| [**minecraft-wrapped**](https://github.com/Zeffut/minecraft-wrapped) | [`v1.1.0`](https://github.com/Zeffut/minecraft-wrapped/releases/tag/v1.1.0) | 15 mai 2026 | il y a 4 mois |
 | [**MultiView**](https://github.com/Zeffut/MultiView) | [`v0.3.0`](https://github.com/Zeffut/MultiView/releases/tag/v0.3.0) | 11 mai 2026 | il y a 4 mois |
 
 ## Par domaine
