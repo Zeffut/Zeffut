@@ -8,7 +8,7 @@
 
 <div align="center">
 
-<img src="assets/header.svg?v=45d568a3" width="100%" alt="Zeffut — 26 dépôts, 25 étoiles, 4100 commits sur 12 mois">
+<img src="assets/header.svg?v=d18b1d82" width="100%" alt="Zeffut — 26 dépôts, 25 étoiles, 4100 commits sur 12 mois">
 
 <a href="https://github.com/Zeffut?tab=repositories"><b>26 dépôts</b></a>&nbsp; · &nbsp;<a href="https://github.com/Zeffut?tab=followers"><b>10 abonnés</b></a>&nbsp; · &nbsp;<span>France</span>
 
@@ -24,7 +24,7 @@
 
 <div align="center"><a href="https://github.com/Zeffut/tiktok_ia_generator"><b>tiktok_ia_generator</b></a>&nbsp; · &nbsp;<a href="https://github.com/Zeffut/FlashbackServer"><b>FlashbackServer</b></a>&nbsp; · &nbsp;<a href="https://github.com/Zeffut/Portfolio"><b>Portfolio</b></a>&nbsp; · &nbsp;<a href="https://github.com/Zeffut/Esiee-Paris-Salles"><b>Esiee-Paris-Salles</b></a>&nbsp; · &nbsp;<a href="https://github.com/Zeffut/n8n-nodes-plaud"><b>n8n-nodes-plaud</b></a>&nbsp; · &nbsp;<a href="https://github.com/Zeffut/NoteGenius"><b>NoteGenius</b></a></div>
 
-<img src="assets/activity.svg?v=0cb53d7b" width="100%" alt="Calendrier de contributions : 4165 contributions sur l’année, série en cours de 42 jours, record 42 jours.">
+<img src="assets/activity.svg?v=40b56031" width="100%" alt="Calendrier de contributions : 4165 contributions sur l’année, série en cours de 42 jours, record 42 jours.">
 
 ## Dernières releases
 
@@ -34,7 +34,7 @@
 | [**FlashbackTurbo**](https://github.com/Zeffut/FlashbackTurbo) | [`v0.6.1+26.1`](https://github.com/Zeffut/FlashbackTurbo/releases/tag/v0.6.1%2B26.1) | 14 juin 2026 | il y a 3 mois |
 | [**SwordHitbox**](https://github.com/Zeffut/SwordHitbox) | [`v1.0.2`](https://github.com/Zeffut/SwordHitbox/releases/tag/v1.0.2) | 10 juin 2026 | il y a 3 mois |
 | [**YoutubeAutoTheme**](https://github.com/Zeffut/YoutubeAutoTheme) | [`v1.1.0`](https://github.com/Zeffut/YoutubeAutoTheme/releases/tag/v1.1.0) | 23 mai 2026 | il y a 3 mois |
-| [**minecraft-wrapped**](https://github.com/Zeffut/minecraft-wrapped) | [`v1.1.0`](https://github.com/Zeffut/minecraft-wrapped/releases/tag/v1.1.0) | 16 mai 2026 | il y a 4 mois |
+| [**minecraft-wrapped**](https://github.com/Zeffut/minecraft-wrapped) | [`v1.1.0`](https://github.com/Zeffut/minecraft-wrapped/releases/tag/v1.1.0) | 15 mai 2026 | il y a 4 mois |
 | [**MultiView**](https://github.com/Zeffut/MultiView) | [`v0.3.0`](https://github.com/Zeffut/MultiView/releases/tag/v0.3.0) | 11 mai 2026 | il y a 4 mois |
 
 ## Par domaine
@@ -101,5 +101,5 @@
 
 <div align="center">
 <sub>README généré par <a href="scripts/build.mjs"><code>scripts/build.mjs</code></a> — DA « chunk », SVG animés faits maison, données GitHub GraphQL.<br>
-Dernière régénération : 30 août 2026 à 16:55 (Europe/Paris).</sub>
+Dernière régénération : 30 août 2026 à 16:56 (Europe/Paris).</sub>
 </div>

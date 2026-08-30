@@ -33,7 +33,7 @@ text{dominant-baseline:auto}
 <text x="42" y="250" font-family="'JetBrains Mono'" font-size="12"><tspan fill="#6B7688">Biome: </tspan><tspan fill="#4AEDD9">minecraft-modding</tspan><tspan fill="#39424F">  ·  </tspan><tspan fill="#6B7688">Seed: </tspan><tspan fill="#D7DEE8">74143023</tspan></text>
 
 <circle class="dot" cx="46" cy="274" r="3.5" fill="#7DD35F"/>
-<text x="58" y="278" font-family="'JetBrains Mono'" font-size="10" fill="#6B7688">Régénéré 30 août 2026 à 16:55 · toutes les 6 h</text>
+<text x="58" y="278" font-family="'JetBrains Mono'" font-size="10" fill="#6B7688">Régénéré 30 août 2026 à 16:56 · toutes les 6 h</text>
 
 <text x="958" y="48" text-anchor="end" font-family="'JetBrains Mono'" font-size="10.5" fill="#6B7688">chunks chargés <tspan fill="#4AEDD9">26/26</tspan></text>
 <g>
