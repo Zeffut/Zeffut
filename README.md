@@ -8,7 +8,7 @@
 
 <div align="center">
 
-<img src="assets/header.svg?v=d18b1d82" width="100%" alt="Zeffut — 26 dépôts, 25 étoiles, 4100 commits sur 12 mois">
+<img src="assets/header.svg?v=789cc272" width="100%" alt="Zeffut — 26 dépôts, 25 étoiles, 4102 commits sur 12 mois">
 
 <a href="https://github.com/Zeffut?tab=repositories"><b>26 dépôts</b></a>&nbsp; · &nbsp;<a href="https://github.com/Zeffut?tab=followers"><b>10 abonnés</b></a>&nbsp; · &nbsp;<span>France</span>
 
@@ -18,13 +18,13 @@
 
 <!-- perso:end -->
 
-<img src="assets/stats.svg?v=b09064f3" width="100%" alt="Activité sur 12 mois : 4100 commits, 30 pull requests, 7 issues, 7 revues. Langage principal : Python.">
+<img src="assets/stats.svg?v=63f27778" width="100%" alt="Activité sur 12 mois : 4102 commits, 30 pull requests, 7 issues, 7 revues. Langage principal : Python.">
 
 <img src="assets/projects.svg?v=76e28cea" width="100%" alt="Projets les plus étoilés : tiktok_ia_generator (★6), FlashbackServer (★4), Portfolio (★2), Esiee-Paris-Salles (★2), n8n-nodes-plaud (★2), NoteGenius (★2)">
 
 <div align="center"><a href="https://github.com/Zeffut/tiktok_ia_generator"><b>tiktok_ia_generator</b></a>&nbsp; · &nbsp;<a href="https://github.com/Zeffut/FlashbackServer"><b>FlashbackServer</b></a>&nbsp; · &nbsp;<a href="https://github.com/Zeffut/Portfolio"><b>Portfolio</b></a>&nbsp; · &nbsp;<a href="https://github.com/Zeffut/Esiee-Paris-Salles"><b>Esiee-Paris-Salles</b></a>&nbsp; · &nbsp;<a href="https://github.com/Zeffut/n8n-nodes-plaud"><b>n8n-nodes-plaud</b></a>&nbsp; · &nbsp;<a href="https://github.com/Zeffut/NoteGenius"><b>NoteGenius</b></a></div>
 
-<img src="assets/activity.svg?v=40b56031" width="100%" alt="Calendrier de contributions : 4165 contributions sur l’année, série en cours de 42 jours, record 42 jours.">
+<img src="assets/activity.svg?v=353cda99" width="100%" alt="Calendrier de contributions : 4167 contributions sur l’année, série en cours de 42 jours, record 42 jours.">
 
 ## Dernières releases
 
@@ -101,5 +101,5 @@
 
 <div align="center">
 <sub>README généré par <a href="scripts/build.mjs"><code>scripts/build.mjs</code></a> — DA « chunk », SVG animés faits maison, données GitHub GraphQL.<br>
-Dernière régénération : 30 août 2026 à 16:56 (Europe/Paris).</sub>
+Dernière régénération : 30 août 2026 à 16:58 (Europe/Paris).</sub>
 </div>
