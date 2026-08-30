@@ -8,7 +8,7 @@
 
 <div align="center">
 
-<img src="assets/header.svg?v=e9cbbbdb" width="100%" alt="Zeffut — 26 dépôts, 25 étoiles, 4099 commits sur 12 mois">
+<img src="assets/header.svg?v=e4af0b28" width="100%" alt="Zeffut — 26 dépôts, 25 étoiles, 4099 commits sur 12 mois">
 
 <a href="https://github.com/Zeffut?tab=repositories"><b>26 dépôts</b></a>&nbsp; · &nbsp;<a href="https://github.com/Zeffut?tab=followers"><b>10 abonnés</b></a>&nbsp; · &nbsp;<span>France</span>
 
@@ -24,7 +24,7 @@
 
 <div align="center"><a href="https://github.com/Zeffut/tiktok_ia_generator"><b>tiktok_ia_generator</b></a>&nbsp; · &nbsp;<a href="https://github.com/Zeffut/FlashbackServer"><b>FlashbackServer</b></a>&nbsp; · &nbsp;<a href="https://github.com/Zeffut/Portfolio"><b>Portfolio</b></a>&nbsp; · &nbsp;<a href="https://github.com/Zeffut/Esiee-Paris-Salles"><b>Esiee-Paris-Salles</b></a>&nbsp; · &nbsp;<a href="https://github.com/Zeffut/n8n-nodes-plaud"><b>n8n-nodes-plaud</b></a>&nbsp; · &nbsp;<a href="https://github.com/Zeffut/NoteGenius"><b>NoteGenius</b></a></div>
 
-<img src="assets/activity.svg?v=556b2b2c" width="100%" alt="Calendrier de contributions : 4164 contributions sur l’année, série en cours de 42 jours, record 42 jours.">
+<img src="assets/activity.svg?v=adafde8f" width="100%" alt="Calendrier de contributions : 4164 contributions sur l’année, série en cours de 42 jours, record 42 jours.">
 
 ## Dernières releases
 
@@ -34,7 +34,7 @@
 | [**FlashbackTurbo**](https://github.com/Zeffut/FlashbackTurbo) | [`v0.6.1+26.1`](https://github.com/Zeffut/FlashbackTurbo/releases/tag/v0.6.1%2B26.1) | 14 juin 2026 | il y a 3 mois |
 | [**SwordHitbox**](https://github.com/Zeffut/SwordHitbox) | [`v1.0.2`](https://github.com/Zeffut/SwordHitbox/releases/tag/v1.0.2) | 10 juin 2026 | il y a 3 mois |
 | [**YoutubeAutoTheme**](https://github.com/Zeffut/YoutubeAutoTheme) | [`v1.1.0`](https://github.com/Zeffut/YoutubeAutoTheme/releases/tag/v1.1.0) | 23 mai 2026 | il y a 3 mois |
-| [**minecraft-wrapped**](https://github.com/Zeffut/minecraft-wrapped) | [`v1.1.0`](https://github.com/Zeffut/minecraft-wrapped/releases/tag/v1.1.0) | 16 mai 2026 | il y a 4 mois |
+| [**minecraft-wrapped**](https://github.com/Zeffut/minecraft-wrapped) | [`v1.1.0`](https://github.com/Zeffut/minecraft-wrapped/releases/tag/v1.1.0) | 15 mai 2026 | il y a 4 mois |
 | [**MultiView**](https://github.com/Zeffut/MultiView) | [`v0.3.0`](https://github.com/Zeffut/MultiView/releases/tag/v0.3.0) | 11 mai 2026 | il y a 4 mois |
 
 ## Par domaine
@@ -75,8 +75,8 @@
 
 | Projet | Description | Langage | |
 | :-- | :-- | :-- | --: |
-| [**Portfolio**](https://github.com/Zeffut/Portfolio) | This is the code of my portfolio website | HTML | ★ 2 |
 | [**Zeffut**](https://github.com/Zeffut/Zeffut) | Profile Repo | — |  |
+| [**Portfolio**](https://github.com/Zeffut/Portfolio) | This is the code of my portfolio website | HTML | ★ 2 |
 | [**Esiee-Paris-Salles**](https://github.com/Zeffut/Esiee-Paris-Salles) | Une application web qui permet de consulter en temps réel la disponibilité des salles ESIEE Paris et de les ré | Python | ★ 2 |
 | [**YoutubeAutoTheme**](https://github.com/Zeffut/YoutubeAutoTheme) | Extension Chrome qui synchronise le thème de YouTube avec celui du système d'exploitation, en temps réel. | JavaScript |  |
 | [**ClipGenius**](https://github.com/Zeffut/ClipGenius) | Transform your youtube video into Tiktok / Shorts / Reels easily with ClipGenius | Python | ★ 1 |
@@ -91,15 +91,15 @@
 
 ## Derniers dépôts touchés
 
+- [**Zeffut**](https://github.com/Zeffut/Zeffut) — Profile Repo <sub>· aujourd'hui</sub>
 - [**ZeffutSMP-ResourcePack**](https://github.com/Zeffut/ZeffutSMP-ResourcePack) — Resource Pack Officiel pour Zeffut SMP Saison 5 <sub>· aujourd'hui</sub>
 - [**StructuresRemover**](https://github.com/Zeffut/StructuresRemover) — sans description <sub>· il y a 7 j</sub>
 - [**Portfolio**](https://github.com/Zeffut/Portfolio) — This is the code of my portfolio website <sub>· il y a 8 j</sub>
 - [**AnonymousPotion**](https://github.com/Zeffut/AnonymousPotion) — Paper plugin — invisible players never have their name shown in death messages, unless they are the victim <sub>· il y a 23 j</sub>
-- [**ClaudeUsage**](https://github.com/Zeffut/ClaudeUsage) — Panneau notch macOS : tes limites d'abonnement Claude au survol de la notch (multi-comptes, natif SwiftUI) <sub>· il y a 1 mois</sub>
 
 ---
 
 <div align="center">
 <sub>README généré par <a href="scripts/build.mjs"><code>scripts/build.mjs</code></a> — DA « chunk », SVG animés faits maison, données GitHub GraphQL.<br>
-Dernière régénération : 30 août 2026 à 16:52 (Europe/Paris).</sub>
+Dernière régénération : 30 août 2026 à 16:53 (Europe/Paris).</sub>
 </div>
