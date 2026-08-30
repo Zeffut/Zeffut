@@ -8,7 +8,7 @@
 
 <div align="center">
 
-<img src="assets/header.svg?v=fcd91274" width="100%" alt="Zeffut — 26 dépôts, 25 étoiles, 4104 commits sur 12 mois">
+<img src="assets/header.svg?v=79d4516d" width="100%" alt="Zeffut — 26 dépôts, 25 étoiles, 4104 commits sur 12 mois">
 
 <a href="https://github.com/Zeffut?tab=repositories"><b>26 dépôts</b></a>&nbsp; · &nbsp;<a href="https://github.com/Zeffut?tab=followers"><b>10 abonnés</b></a>&nbsp; · &nbsp;<span>France</span>
 
@@ -18,7 +18,7 @@
 
 <!-- perso:end -->
 
-<img src="assets/stats.svg?v=395fd148" width="100%" alt="Activité sur 12 mois : 4104 commits, 30 pull requests, 7 issues, 7 revues. Langage principal : Python.">
+<img src="assets/stats.svg?v=f8f90640" width="100%" alt="Activité sur 12 mois : 4104 commits, 30 pull requests, 7 issues, 7 revues. Langage principal : Python.">
 
 <img src="assets/activity.svg?v=8f4dca2d" width="100%" alt="Calendrier de contributions : 4169 contributions sur l’année, série en cours de 42 jours, record 42 jours.">
 
@@ -97,5 +97,5 @@
 
 <div align="center">
 <sub>README généré par <a href="scripts/build.mjs"><code>scripts/build.mjs</code></a> — DA « deepslate », SVG animés faits maison, données GitHub GraphQL.<br>
-Dernière régénération : 30 août 2026 à 17:01 (Europe/Paris).</sub>
+Dernière régénération : 30 août 2026 à 17:05 (Europe/Paris).</sub>
 </div>
