@@ -9,9 +9,9 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: light)" srcset="assets/header-light.svg?v=710f3c48">
-  <source media="(prefers-color-scheme: dark)" srcset="assets/header.svg?v=0271787e">
-  <img src="assets/header.svg?v=0271787e" width="100%" alt="Zeffut — 27 dépôts, 25 étoiles, 4718 commits sur 12 mois">
+  <source media="(prefers-color-scheme: light)" srcset="assets/header-light.svg?v=00de3058">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/header.svg?v=84e7a538">
+  <img src="assets/header.svg?v=84e7a538" width="100%" alt="Zeffut — 27 dépôts, 25 étoiles, 4745 commits sur 12 mois">
 </picture>
 
 <a href="https://github.com/Zeffut?tab=repositories"><b>27 dépôts</b></a>&nbsp; · &nbsp;<a href="https://github.com/Zeffut?tab=followers"><b>10 abonnés</b></a>&nbsp; · &nbsp;<span>France</span>
@@ -23,13 +23,13 @@
 <!-- perso:end -->
 
 <picture>
-  <source media="(prefers-color-scheme: light)" srcset="assets/stats-light.svg?v=275192a7">
-  <source media="(prefers-color-scheme: dark)" srcset="assets/stats.svg?v=fa96f73b">
-  <img src="assets/stats.svg?v=fa96f73b" width="100%" alt="Activité sur 12 mois : 4718 commits, 41 pull requests, 25 issues, 9 revues. Langage principal : Rust.">
+  <source media="(prefers-color-scheme: light)" srcset="assets/stats-light.svg?v=cc6902d4">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stats.svg?v=f51326c0">
+  <img src="assets/stats.svg?v=f51326c0" width="100%" alt="Activité sur 12 mois : 4745 commits, 41 pull requests, 25 issues, 9 revues. Langage principal : Rust.">
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: light)" srcset="assets/activity-light.svg?v=6ab40048">
-  <source media="(prefers-color-scheme: dark)" srcset="assets/activity.svg?v=f5a067e1">
-  <img src="assets/activity.svg?v=f5a067e1" width="100%" alt="Calendrier de contributions : 4815 contributions sur l’année, série en cours de 49 jours, record 49 jours.">
+  <source media="(prefers-color-scheme: light)" srcset="assets/activity-light.svg?v=8ea8242f">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/activity.svg?v=78db8fce">
+  <img src="assets/activity.svg?v=78db8fce" width="100%" alt="Calendrier de contributions : 4842 contributions sur l’année, série en cours de 49 jours, record 49 jours.">
 </picture>
