@@ -9,9 +9,9 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: light)" srcset="assets/header-light.svg?v=28add784">
-  <source media="(prefers-color-scheme: dark)" srcset="assets/header.svg?v=2a4e05be">
-  <img src="assets/header.svg?v=2a4e05be" width="100%" alt="Zeffut — 26 dépôts, 32 étoiles, 6626 commits sur 12 mois">
+  <source media="(prefers-color-scheme: light)" srcset="assets/header-light.svg?v=d1c83fd0">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/header.svg?v=79245ea8">
+  <img src="assets/header.svg?v=79245ea8" width="100%" alt="Zeffut — 26 dépôts, 32 étoiles, 6626 commits sur 12 mois">
 </picture>
 
 <a href="https://github.com/Zeffut?tab=repositories"><b>26 dépôts</b></a>&nbsp; · &nbsp;<a href="https://github.com/Zeffut?tab=followers"><b>10 abonnés</b></a>&nbsp; · &nbsp;<span>France</span>
