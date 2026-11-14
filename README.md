@@ -9,9 +9,9 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: light)" srcset="assets/header-light.svg?v=69b3b093">
-  <source media="(prefers-color-scheme: dark)" srcset="assets/header.svg?v=5805b8eb">
-  <img src="assets/header.svg?v=5805b8eb" width="100%" alt="Zeffut — 26 dépôts, 34 étoiles, 7570 commits sur 12 mois">
+  <source media="(prefers-color-scheme: light)" srcset="assets/header-light.svg?v=d018725b">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/header.svg?v=6b7a86e7">
+  <img src="assets/header.svg?v=6b7a86e7" width="100%" alt="Zeffut — 26 dépôts, 34 étoiles, 7570 commits sur 12 mois">
 </picture>
 
 <a href="https://github.com/Zeffut?tab=repositories"><b>26 dépôts</b></a>&nbsp; · &nbsp;<a href="https://github.com/Zeffut?tab=followers"><b>10 abonnés</b></a>&nbsp; · &nbsp;<span>France</span>
@@ -29,7 +29,7 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: light)" srcset="assets/activity-light.svg?v=269ba40e">
-  <source media="(prefers-color-scheme: dark)" srcset="assets/activity.svg?v=e972b36a">
-  <img src="assets/activity.svg?v=e972b36a" width="100%" alt="Calendrier de contributions : 7727 contributions sur l’année, série en cours de 5 jours, record 54 jours.">
+  <source media="(prefers-color-scheme: light)" srcset="assets/activity-light.svg?v=3e490b3a">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/activity.svg?v=89cee440">
+  <img src="assets/activity.svg?v=89cee440" width="100%" alt="Calendrier de contributions : 7727 contributions sur l’année, série en cours de 5 jours, record 54 jours.">
 </picture>
