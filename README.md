@@ -9,9 +9,9 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: light)" srcset="assets/header-light.svg?v=99776cc9">
-  <source media="(prefers-color-scheme: dark)" srcset="assets/header.svg?v=241964f3">
-  <img src="assets/header.svg?v=241964f3" width="100%" alt="Zeffut — 27 dépôts, 35 étoiles, 8767 commits sur 12 mois">
+  <source media="(prefers-color-scheme: light)" srcset="assets/header-light.svg?v=2f2005c8">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/header.svg?v=ddbb85fc">
+  <img src="assets/header.svg?v=ddbb85fc" width="100%" alt="Zeffut — 27 dépôts, 35 étoiles, 8767 commits sur 12 mois">
 </picture>
 
 <a href="https://github.com/Zeffut?tab=repositories"><b>27 dépôts</b></a>&nbsp; · &nbsp;<a href="https://github.com/Zeffut?tab=followers"><b>11 abonnés</b></a>&nbsp; · &nbsp;<span>France</span>
@@ -23,9 +23,9 @@
 <!-- perso:end -->
 
 <picture>
-  <source media="(prefers-color-scheme: light)" srcset="assets/stats-light.svg?v=bd3500a2">
-  <source media="(prefers-color-scheme: dark)" srcset="assets/stats.svg?v=0fe1749e">
-  <img src="assets/stats.svg?v=0fe1749e" width="100%" alt="Activité sur 12 mois : 8767 commits, 70 pull requests, 108 issues, 10 revues. Langage principal : Rust.">
+  <source media="(prefers-color-scheme: light)" srcset="assets/stats-light.svg?v=9165d97d">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stats.svg?v=9ef31f72">
+  <img src="assets/stats.svg?v=9ef31f72" width="100%" alt="Activité sur 12 mois : 8767 commits, 70 pull requests, 108 issues, 10 revues. Langage principal : Rust.">
 </picture>
 
 <picture>
